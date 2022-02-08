@@ -1,0 +1,26 @@
+.input {
+  height: 50px;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+input {
+  background: none;
+  border: none;
+  margin-left: 12px;
+  flex: 1;
+}
+input:focus {
+  outline: none;
+}
+button {
+  margin-right: 8px;
+  background-color: rgb(214, 213, 213);
+  border: none;
+  border: 20px;
+  height: 40px;
+  width: 60px;
+}
