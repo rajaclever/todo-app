@@ -9,7 +9,7 @@ const[input , setInput] = useState('')
 const dispatch = useDispatch();
 
 const handleChange = () =>{
-  
+  console.log(`Adding ${input}`)
   dispatch(saveTodo({
     item:input,
     done:false,
