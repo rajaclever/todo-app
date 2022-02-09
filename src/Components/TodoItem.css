@@ -11,5 +11,9 @@
   flex: 1;
 }
 .todoItem--done {
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
+  background-color: aqua;
+}
+.todoItem-check {
+  background-color: aqua;
 }

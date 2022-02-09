@@ -5,7 +5,7 @@ import './App.css';
 import Input from './Components/Input';
 import TodoItem from './Components/TodoItem';
 import { useSelector} from 'react-redux'
-import { selectTodoList } from './features/todoSlice'
+import { selectTodoList } from './features/User/todoSlice'
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <TodoItem 
            name={item.item}
            done={item.done}
-           id={item.id}
+           key={item.id}
           />
         ))
       }
